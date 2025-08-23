@@ -1,0 +1,20 @@
+/* Estilos base: body, tipografia, reset */
+body {
+  font-family: $fonte-principal, Arial, sans-serif;
+  background: $cor-fundo;
+  color: $cor-texto;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: calc($espacamento / 2);
+  color: $cor-primaria;
+  text-shadow: 1px 1px 0 $cor-terciaria;
+}
+/* Reset básico */
+*, *::before, *::after {
+  box-sizing: border-box;
+}

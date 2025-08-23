@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ponto Alfa Co.</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <h1>Ponto Alfa Co.</h1>
+            <nav class="navbar">
+                <div class="navbar__menu-toggle" id="menu-toggle">
+                    <span class="navbar__menu-toggle-span"></span>
+                    <span class="navbar__menu-toggle-span"></span>
+                    <span class="navbar__menu-toggle-span"></span>
+                </div>
+                <ul class="navbar__links" id="menu">
+                    <li class="navbar__item navbar__item--active"><a class="navbar__link navbar__link--active" href="#Home">Home</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#Projetos">Nossos Projetos:</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#Sobre">Sobre nós:</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#Servicos">Nossos Serviços:</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#Contato">Entre em contato:</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#Depoimentos">Depoimentos:</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="Home">
+                <h2 class="home__title">Bem-vindo à Ponto Alfa Co.</h2>
+                <p>
+                    "Transformando ideias em marcas memoráveis.<br>
+                    Na Ponto Alfa, acreditamos que todo grande projeto começa com um ponto — o Alfa. Criamos soluções criativas, autênticas e feitas sob medida para dar vida à sua visão e destacar sua marca no mercado."
+                </p>
+            </section>
+            <section id="Sobre">
+                <h2 class="sobre__title">Sobre Nós:</h2>
+                <p>
+                    "Na Ponto Alfa, somos apaixonados por criar experiências digitais que não apenas atendem, mas superam as expectativas de nossos clientes. Nossa equipe é composta por profissionais criativos e dedicados, prontos para transformar sua visão em realidade."
+                </p>
+            </section>
+            <section id="Servicos">
+                <h2 class="servicos__title">Nossos Serviços:</h2>
+                <ul>
+                    <li>Criação de Identidade Visual (logotipos, paletas de cores, tipografia)</li>
+                    <li>Design Gráfico (flyers, cartazes, materiais impressos)</li>
+                    <li>Desenvolvimento de Websites (sites institucionais, landing pages, e-commerces)</li>
+                    <li>Design de UX/UI (experiência e interface para apps e sites)</li>
+                    <li>Marketing Digital (gestão de redes sociais, anúncios pagos, SEO)</li>
+                </ul>
+            </section>
+            <section id="Depoimentos">
+                <h2 class="depoimentos__title">Depoimentos:</h2>
+                <p>
+                    "A Ponto Alfa Co. transformou nossa visão em realidade. O trabalho deles é excepcional!"
+                </p>
+                <p>
+                    "Recomendo a Ponto Alfa para qualquer pessoa que precise de soluções criativas e eficazes."
+                </p>
+                <p>
+                    "A equipe da Ponto Alfa é extremamente profissional e dedicada. Estou muito satisfeito com o resultado!"
+                </p>
+            </section>
+            <section id="Contato">
+                <h2 class="contato__title">Entre em Contato:</h2>
+                <form action="mailto:contato@pontoalfa.com.br" method="post" enctype="text/plain">
+                    <label for="nome">Digite seu nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Digite seu email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Digite sua mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="10" maxlength="500" required></textarea>
+                    <p>Email: contato@pontoalfa.com.br</p>
+                    <p>Telefone: (21) 1234-5678*</p>
+                    <p>Endereço: Rua Exemplo, 123 - Centro, Rio de Janeiro - RJ</p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
