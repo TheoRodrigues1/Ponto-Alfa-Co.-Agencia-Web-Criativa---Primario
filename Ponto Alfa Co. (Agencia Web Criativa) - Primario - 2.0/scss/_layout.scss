@@ -1,0 +1,20 @@
+/* Estrutura geral da página */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: calc($espacamento / 2);
+}
+
+.header {
+  @include espacamento-padrao(padding, calc($espacamento / 2));
+  background: linear-gradient(90deg, $cor-primaria 60%, $cor-terciaria 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(255,111,97,0.15);
+}
+
+.footer {
+  @include espacamento-padrao(padding, calc($espacamento / 2));
+  background: $cor-secundaria;
+  color: #fff;
+  box-shadow: 0 -2px 8px rgba(79,195,247,0.15);
+}

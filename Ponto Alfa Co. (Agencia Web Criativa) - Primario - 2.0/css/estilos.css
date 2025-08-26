@@ -1,0 +1,107 @@
+/* Estilos para a section Home e o título */
+#Home {
+  padding: 40px 20px;
+  background: #4a6cb6;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.home__title {
+  font-size: 2.2rem;
+  color: #5bc7b5;
+  font-weight: bold;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+/* Estilos para a section Sobre e o título */
+#Sobre {
+  padding: 40px 20px;
+  background: #6f7be6;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.sobre__title {
+  font-size: 2rem;
+  color: #3498db;
+  font-weight: bold;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Estilos para a section Depoimentos e o título */
+#Depoimentos {
+  padding: 40px 20px;
+  background: #5fe4a6;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.depoimentos__title {
+  font-size: 2rem;
+  color: #254632;
+  font-weight: bold;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Estilos para a section Contato e o título */
+#Contato {
+  padding: 40px 20px;
+  background: #204724;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.contato__title {
+  font-size: 2rem;
+  color: #22e64d;
+  font-weight: bold;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Estilos para o título da section Serviços */
+.servicos__title {
+  background: #4a6cb6;
+  font-size: 2rem;
+  color: #4a6cb6;
+  font-weight: bold;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+.cabecalho {
+  background: #3498db;
+  color: white;
+  padding: 20px;
+}
+.cabecalho__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho__navbar__menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.cabecalho__navbar__menu-toggle-span {
+  background: white;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+.cabecalho__navbar__links {
+  display: flex;
+  list-style: none;
+}
+.cabecalho__navbar__links-item {
+  margin: 0 20px;
+}
+.cabecalho__navbar__links-item--active {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

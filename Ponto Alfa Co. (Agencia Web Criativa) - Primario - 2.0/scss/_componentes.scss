@@ -1,0 +1,49 @@
+/* Componentes: botões, cards, menus, etc. */
+.btn {
+  @include botao-basico();
+  &--secundario {
+    @include botao-basico($cor-secundaria);
+  }
+  &--sucesso {
+    @include botao-basico($cor-sucesso);
+  }
+  &--erro {
+    @include botao-basico($cor-erro);
+  }
+}
+
+.card {
+  background: $cor-card;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(255,214,0,0.10);
+  padding: $espacamento;
+  margin-bottom: calc($espacamento / 2);
+  border: 2px solid $cor-terciaria;
+  &__titulo {
+    font-size: 1.25em;
+    margin-bottom: calc($espacamento / 4);
+    color: $cor-primaria;
+  }
+  &__conteudo {
+    color: $cor-texto;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: calc($espacamento / 2);
+  background: $cor-menu;
+  border-radius: 8px;
+  padding: calc($espacamento / 4);
+  &__item {
+    list-style: none;
+    color: #fff;
+    &--ativo {
+      font-weight: bold;
+      color: $cor-menu-ativo;
+      background: #fff;
+      border-radius: 4px;
+      padding: 0 8px;
+    }
+  }
+}
